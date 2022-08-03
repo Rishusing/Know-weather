@@ -1,0 +1,83 @@
+body {
+    color: rgb(1, 6, 7);
+    background-image: url("/img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: arial;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    color: black;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-shadow: rgb(19, 223, 238) 3px 3px 6px;
+}
+
+header{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+div a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-family:cursive;
+}
+a:hover {
+    color: rgb(49, 222, 228);
+    text-shadow: 0 0 2px white;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(23, 94, 88);
+    box-shadow: 0 0 6px rgb(15, 191, 214);
+    border-radius: 4px;
+}
+
+
+button {
+    margin: 20px;
+    padding:5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 2px;
+    background-color:rgb(35, 213, 226);
+    border: none;
+    font-family: 'Bree Serif', serif;
+}
+
+button:hover{
+    color: white;
+    box-shadow: 0px 0px 30px white;
+    text-shadow: 0px 0px 10px white;
+    border: 0;
+    cursor: pointer;
+}
+
+#message-1,#message-2 {
+    font-size: 30px;
+}
